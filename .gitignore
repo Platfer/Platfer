@@ -50,3 +50,9 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Web Application files
+* .html
+* .hta
+* .js
+* .asp
