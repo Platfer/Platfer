@@ -56,3 +56,9 @@ dkms.conf
 * .hta
 * .js
 * .asp
+
+# Application files
+* .exe
+* .dmg
+* .apk
+* .hta
