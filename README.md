@@ -13,3 +13,8 @@
 | **Version** | **Release Date** | **Original Author(s)** | **Developer(s)** |  **Operating Systems** | **License** |
 |:------------|:-----------------:|:-------------------:|:-------------------:|:-------------------:|:--------------:|
 | v1.0.0.0 | 7 January 2022 | Cyril John Magayaga | **Cyril John Magayaga** (Founder, Chief Executive Officer, and Chief Technology Officer of [Intergralty Platforms Inc.](https://github.com/intergralty)) | Windows 10, Windows 11 | **Proprietary freeware**, based on open source |
+
+## Downloads
+| **Versions** | **Release Date** | **Downloads** | 
+|:-:|:-:|:-:|
+| v1.0.0.0 | 7 January 2022 | [Click Here](https://github.com/Platfer/Platfer/releases/download/v1.0.0.0-Platfer/Platfer.exe)
