@@ -1,7 +1,7 @@
 # Intergralty Platfer
-[![Stars](https://img.shields.io/github/stars/Platfer/Platfer?style=for-the-badge)](https://github.com/Platfer/Platfer) [![Issues](https://img.shields.io/github/issues/Platfer/Platfer?style=for-the-badge)](https://github.com/Platfer/Platfer) 
+[![Stars](https://img.shields.io/github/downloads/Platfer/Platfer/latest/total?logo=Intergralty&style=for-the-badge)](https://github.com/Platfer/Platfer) [![Issues](https://img.shields.io/github/issues/Platfer/Platfer?style=for-the-badge)](https://github.com/Platfer/Platfer) [![Issues](https://img.shields.io/github/v/release/Platfer/Platfer?style=for-the-badge)](https://github.com/Platfer/Platfer) 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-![Logo/Background](https://github.com/Platfer/Platfer/blob/main/Platfer.png)]
+![Logo/Background](https://github.com/Platfer/Platfer/blob/main/Platfer.png)
 **Intergralty Platfer** is a **free and open-source, proprietary graphical web browser** developed by **Intergralty Platforms Inc.** It is primarily based on open-source software, and mainly WebEngine. The cross-platform web browser like Google Chrome, Microsoft Edge, Apple Safari, Mozilla Firefox, and many more.
 
 ## Version of Intergralty Platfer
