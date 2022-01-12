@@ -1,5 +1,5 @@
 # Intergralty Platfer
-[![Download](https://img.shields.io/github/downloads/Platfer/Platfer/latest/total?logo=Intergralty&style=for-the-badge)](https://github.com/Platfer/Platfer) [![Stars](https://img.shields.io/github/stars/Platfer?style=for-the-badge)](https://github.com/Platfer/Platfer) [![Issues](https://img.shields.io/github/issues/Platfer/Platfer?style=for-the-badge)](https://github.com/Platfer/Platfer) [![Release](https://img.shields.io/github/v/release/Platfer/Platfer?style=for-the-badge)](https://github.com/Platfer/Platfer) [![Size](https://img.shields.io/github/languages/code-size/Platfer/Platfer?style=for-the-badge)](https://github.com/Platfer/Platfer)
+[![Download](https://img.shields.io/github/downloads/Platfer/Platfer/latest/total?logo=Intergralty&style=for-the-badge)](https://github.com/Platfer/Platfer) [![Stars](https://img.shields.io/github/stars/Platfer?style=for-the-badge)](https://github.com/Platfer/Platfer) [![Issues](https://img.shields.io/github/issues/Platfer/Platfer?style=for-the-badge)](https://github.com/Platfer/Platfer) [![Release](https://img.shields.io/github/v/release/Platfer/Platfer?style=for-the-badge)](https://github.com/Platfer/Platfer) [![Size](https://img.shields.io/github/languages/code-size/Platfer/Platfer?style=for-the-badge)](https://github.com/Platfer/Platfer) [![Issues](https://img.shields.io/github/release-date/Platfer/Platfer?style=for-the-badge)](https://github.com/Platfer/Platfer#version-of-intergralty-platfer)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![Logo/Background](https://github.com/Platfer/Platfer/blob/main/Platfer.png)
 **Intergralty Platfer** is a **free and open-source, proprietary graphical web browser** developed by **Intergralty Platforms Inc.** It is primarily based on open-source software, and mainly WebEngine. The cross-platform web browser like Google Chrome, Microsoft Edge, Apple Safari, Mozilla Firefox, and many more.
@@ -7,7 +7,7 @@
 ## Version of Intergralty Platfer
 | **Version** | **Release Date** | **Original Author(s)** | **Developer(s)** |  **Operating Systems** | **License** | **Visual Studio** |
 |:------------|:-----------------:|:-------------------:|:-------------------:|:-------------------:|:--------------:|:---:|
-| [**v1.0.0.0**](https://github.com/Platfer/Platfer/releases/tag/v1.0.0.0-Platfer) | 7 January 2022 | Cyril John Magayaga | **Cyril John Magayaga** (Founder, Chief Executive Officer, and Chief Technology Officer of [Intergralty Platforms Inc.](https://github.com/intergralty)) | Windows 10, Windows 11 | **Proprietary freeware**, based on open source | 17.0.31919.166 (Visual Studio 2022) |
+| [**v1.0.0.0**](https://github.com/Platfer/Platfer/releases/tag/v1.0.0.0-Platfer) | 9 January 2022 | Cyril John Magayaga | **Cyril John Magayaga** (Founder, Chief Executive Officer, and Chief Technology Officer of [Intergralty Platforms Inc.](https://github.com/intergralty)) | Windows 10, Windows 11 | **Proprietary freeware**, based on open source | 17.0.31919.166 (Visual Studio 2022) |
 
 | **Version** | **Microsoft Windows** | **macOS** | **Linux** | **Other** |
 |:-:|:-:|:-:|:-:|:-:|
@@ -16,4 +16,4 @@
 ## Downloads
 | **Versions** | **Release Date** | **Downloads for `.zip`** | **Downloads for `.tar.gz`** | **Downloads for `.exe`** 
 |:-:|:-:|:-:|:-:|:-:|
-| v1.0.0.0 | 7 January 2022 | [Click Here](https://github.com/Platfer/Platfer/archive/refs/tags/v1.0.0.0-Platfer.zip) | [Click Here](https://github.com/Platfer/Platfer/archive/refs/tags/v1.0.0.0-Platfer.tar.gz) | No |
+| v1.0.0.0 | 9 January 2022 | [Click Here](https://github.com/Platfer/Platfer/archive/refs/tags/v1.0.0.0-Platfer.zip) | [Click Here](https://github.com/Platfer/Platfer/archive/refs/tags/v1.0.0.0-Platfer.tar.gz) | No |
