@@ -5,15 +5,15 @@
 **Intergralty Platfer** is a **free and open-source, proprietary graphical web browser** developed by **Intergralty Platforms Inc.** It is primarily based on open-source software, and mainly WebEngine. The cross-platform web browser like Google Chrome, Microsoft Edge, Apple Safari, Mozilla Firefox, and many more.
 
 ## Version of Intergralty Platfer
-| **Version** | **Release Date** | **Original Author(s)** | **Developer(s)** |  **Operating Systems** | **License** | **Visual Studio** |
-|:------------|:-----------------:|:-------------------:|:-------------------:|:-------------------:|:--------------:|:---:|
-| [**v1.0.0.0**](https://github.com/Platfer/Platfer/releases/tag/v1.0.0.0-Platfer) | 9 January 2022 | Cyril John Magayaga | **Cyril John Magayaga** (Founder, Chief Executive Officer, and Chief Technology Officer of [Intergralty Platforms Inc.](https://github.com/intergralty)) | Windows 10, Windows 11 | **Proprietary freeware**, based on open source | 17.0.31919.166 (Visual Studio 2022) |
+| **Version** | **Release Date** | Programming language | **Original Author(s)** | **Developer(s)** |  **Operating Systems** | **License** | **Visual Studio** |
+|:------------|:-----------------:|:-------------------:|:-:|:-------------------:|:-------------------:|:--------------:|:---:|
+| [**v1.0.0.0**](https://github.com/Platfer/Platfer/releases/tag/v1.0.0.0-Platfer) | 9 January 2022 | Visual Basic .NET (VB.NET) | Cyril John Magayaga | **Cyril John Magayaga** (Founder, Chief Executive Officer, and Chief Technology Officer of [Intergralty Platforms Inc.](https://github.com/intergralty)) | Windows 10, Windows 11 | **Proprietary freeware**, based on open source | 17.0.31919.166 (Visual Studio 2022) |
 
 | **Version** | **Microsoft Windows** | **macOS** | **Linux** | **Other** |
 |:-:|:-:|:-:|:-:|:-:|
 | 1.0.0.0 | Yes | No | No | No |
 
 ## Downloads
-| **Versions** | **Release Date** | **Downloads for `.zip`** | **Downloads for `.tar.gz`** | **Downloads for `.exe`** 
-|:-:|:-:|:-:|:-:|:-:|
-| v1.0.0.0 | 9 January 2022 | [Click Here](https://github.com/Platfer/Platfer/archive/refs/tags/v1.0.0.0-Platfer.zip) | [Click Here](https://github.com/Platfer/Platfer/archive/refs/tags/v1.0.0.0-Platfer.tar.gz) | No |
+| **Versions** | **Release Date** | Programming language | **Downloads for `.zip`** | **Downloads for `.tar.gz`** | **Downloads for `.exe`** 
+|:-:|:-:|:-:|:-:|:-:|:-:|
+| v1.0.0.0 | 9 January 2022 | Visual Basic .NET (VB.NET) | [Click Here](https://github.com/Platfer/Platfer/archive/refs/tags/v1.0.0.0-Platfer.zip) | [Click Here](https://github.com/Platfer/Platfer/archive/refs/tags/v1.0.0.0-Platfer.tar.gz) | No |
