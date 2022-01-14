@@ -7,7 +7,7 @@
 ## Version of Intergralty Platfer
 | **Version** | **Release Date** | Programming language | **Original Author(s)** | **Developer(s)** |  **Operating Systems** | **License** | **Visual Studio** |
 |:------------|:-----------------:|:-------------------:|:-:|:-------------------:|:-------------------:|:--------------:|:---:|
-| [**v1.0.0.0**](https://github.com/Platfer/Platfer/releases/tag/v1.0.0.0-Platfer) | 9 January 2022 | Visual Basic .NET (VB.NET) | Cyril John Magayaga | **Cyril John Magayaga** (Founder, Chief Executive Officer, and Chief Technology Officer of [Intergralty Platforms Inc.](https://github.com/intergralty)) | Windows 10, Windows 11 | **Proprietary freeware**, based on open source | 17.0.31919.166 (Visual Studio 2022) |
+| [**v1.0.0.0**](https://github.com/Platfer/Platfer/releases/tag/v1.0.0.0-Platfer) | 9 January 2022 | Visual Basic .NET (VB.NET) | Cyril John Magayaga | **Cyril John Magayaga** (Founder, Chief Executive Officer, and Chief Technology Officer of [Intergralty Platforms Inc.](https://github.com/intergralty)) | Windows 10, Windows 11 | **MIT License** | 17.0.31919.166 (Visual Studio 2022) |
 
 | **Version** | **Microsoft Windows** | **macOS** | **Linux** | **Other** |
 |:-:|:-:|:-:|:-:|:-:|
