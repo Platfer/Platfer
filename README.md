@@ -16,4 +16,4 @@
 ## Downloads
 | **Versions** | **Release Date** | **Downloads for `.zip`** | **Downloads for `.tar.gz`** | **Downloads for `.exe`** 
 |:-:|:-:|:-:|:-:|:-:|
-| v1.0.0.0 | 9 January 2022 | [Click Here](https://github.com/Platfer/Platfer/archive/refs/tags/v1.0.0.0-Platfer.zip) | [Click Here](https://github.com/Platfer/Platfer/archive/refs/tags/v1.0.0.0-Platfer.tar.gz) | No |
+| v1.0.0.0 | 9 January 2022 | [Click Here](https://github.com/Platfer/Platfer/archive/refs/tags/v1.0.zip) | [Click Here](https://github.com/Platfer/Platfer/archive/refs/tags/v1.0.tar.gz) | Yes |
