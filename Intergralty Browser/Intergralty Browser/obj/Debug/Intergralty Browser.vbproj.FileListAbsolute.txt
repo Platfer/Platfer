@@ -1,0 +1,6 @@
+C:\Users\cyril\source\repos\Intergralty Browser\Intergralty Browser\obj\Debug\Intergralty Browser.vbproj.AssemblyReference.cache
+C:\Users\cyril\source\repos\Intergralty Browser\Intergralty Browser\obj\Debug\Intergralty Browser.vbproj.SuggestedBindingRedirects.cache
+C:\Users\cyril\source\repos\Intergralty Browser\Intergralty Browser\obj\Debug\Intergralty_Browser.Form1.resources
+C:\Users\cyril\source\repos\Intergralty Browser\Intergralty Browser\obj\Debug\Intergralty_Browser.Resources.resources
+C:\Users\cyril\source\repos\Intergralty Browser\Intergralty Browser\obj\Debug\Intergralty Browser.vbproj.GenerateResource.cache
+C:\Users\cyril\source\repos\Intergralty Browser\Intergralty Browser\obj\Debug\Intergralty Browser.vbproj.CoreCompileInputs.cache
