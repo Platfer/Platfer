@@ -14,6 +14,6 @@
 | 1.0.0.0 | Yes | No | No | No |
 
 ## Downloads
-| **Versions** | **Release Date** | Programming language | **Downloads for `.zip`** | **Downloads for `.tar.gz`** | **Downloads for `.exe`** 
-|:-:|:-:|:-:|:-:|:-:|:-:|
-| v1.0.0.0 | 9 January 2022 | Visual Basic .NET (VB.NET) | [Click Here](https://github.com/Platfer/Platfer/archive/refs/tags/v1.0.0.0-Platfer.zip) | [Click Here](https://github.com/Platfer/Platfer/archive/refs/tags/v1.0.0.0-Platfer.tar.gz) | No |
+| **Versions** | **Release Date** | **Downloads for `.zip`** | **Downloads for `.tar.gz`** | **Downloads for `.exe`** 
+|:-:|:-:|:-:|:-:|:-:|
+| v1.0.0.0 | 9 January 2022 | [Click Here](https://github.com/Platfer/Platfer/archive/refs/tags/v1.0.0.0-Platfer.zip) | [Click Here](https://github.com/Platfer/Platfer/archive/refs/tags/v1.0.0.0-Platfer.tar.gz) | No |
