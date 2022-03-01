@@ -17,3 +17,7 @@
 | **Versions** | **Release Date** | **Downloads for `.zip`** | **Downloads for `.tar.gz`** | **Downloads for `.exe`** 
 |:-:|:-:|:-:|:-:|:-:|
 | v1.0.0.0 | 9 January 2022 | [Click Here](https://github.com/Platfer/Platfer/archive/refs/tags/v1.0.zip) | [Click Here](https://github.com/Platfer/Platfer/archive/refs/tags/v1.0.tar.gz) | Yes |
+
+## History
+* March 2022
+  * 2 March 2022, the Platfer-VB.NET mergers Platfer-CSharp to `Platfer` again.
