@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Platfer", "Platfer.csproj", "{A2CF50A6-AC81-4300-8328-C5A77819323F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2CF50A6-AC81-4300-8328-C5A77819323F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2CF50A6-AC81-4300-8328-C5A77819323F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2CF50A6-AC81-4300-8328-C5A77819323F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2CF50A6-AC81-4300-8328-C5A77819323F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBBE91F2-9870-42AB-9F9C-24596B82E959}
+	EndGlobalSection
+EndGlobal
