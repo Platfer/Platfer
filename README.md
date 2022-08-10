@@ -12,7 +12,7 @@
 | v1.0 | January 9, 2022 (updated **January 14, 2022**) | [Click Here](https://github.com/Platfer/Platfer/archive/refs/tags/v1.0.zip) | [Click Here](https://github.com/Platfer/Platfer/archive/refs/tags/v1.0.tar.gz) | Yes | **(v17.0.2)** v17.0.31919.166 | First **Visual Basic .NET** Application |
 | v1.1 | August 9, 2022 | [Click Here](https://github.com/Platfer/Platfer/archive/refs/tags/v1.1.zip) | [Click Here](https://github.com/Platfer/Platfer/archive/refs/tags/v1.1.tar.gz) | Yes | **(v17.2.6)** 17.2.32630.192 | First **C#** Application |
 | v1.2 | August 14, 2022 | Preview | Preview | Yes | **(v17.2.6)** 17.2.32630.192 | Redesign of Platfer |
-| v1.3 | August 24, 2022 | Preview | Preview | Yes | **(v17.2.6)** 17.2.32630.192 | New Tabs |
+| v1.3 | December 24, 2022 | Preview | Preview | Yes | **(v17.2.6)** 17.2.32630.192 | New Tabs |
 
 ## History
 
