@@ -1,7 +1,6 @@
 # Intergralty Platfer
 ![Logo/Background](https://github.com/Platfer/Platfer/blob/main/Platfer.png)
-[![Download](https://img.shields.io/github/downloads/Platfer/Platfer/total?style=for-the-badge)](https://github.com/Platfer/Platfer/releases/tag/v1.0.0.0-Platfer) [![Stars](https://img.shields.io/github/stars/Platfer?style=for-the-badge)](https://github.com/Platfer/Platfer) [![Issues](https://img.shields.io/github/issues/Platfer/Platfer?style=for-the-badge)](https://github.com/Platfer/Platfer) [![Release](https://img.shields.io/github/v/release/Platfer/Platfer?style=for-the-badge)](https://github.com/Platfer/Platfer) [![Size](https://img.shields.io/github/languages/code-size/Platfer/Platfer?style=for-the-badge)](https://github.com/Platfer/Platfer) [![Issues](https://img.shields.io/github/release-date/Platfer/Platfer?style=for-the-badge)](https://github.com/Platfer/Platfer#version-of-intergralty-platfer)
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 **Platfer** is a free and open-source, proprietary graphical web browser created, designed, and developed by **Cyril John Magayaga** It is primarily based on open-source software, and mainly WebEngine.
 
 ## Downloads
@@ -12,5 +11,13 @@
 | v1.2 | August 14, 2022 | Preview | Preview | Yes | **(v17.2.6)** 17.2.32630.192 | Redesign of Platfer |
 
 ## History
-* March 2022
-  * 2 March 2022, the Platfer-VB.NET mergers Platfer-CSharp to `Platfer` again.
+
+  * January 7, 2022, Platfer was created by [Cyril John Magayaga](https://github.com/magayaga). It is first Pre-alpha version of Platfer (v0.9) was released on January 7, 2022.
+  * January 14, 2022, Cyril John Magayaga announced the new first version of Platfer before the first beta of release date on January 9, 2022.
+  * March 2, 2022, the Platfer-VB.NET mergers Platfer-CSharp to Platfer again.
+  * June 22, 2022, Cyril John Magayaga says **"Platfer become first C# Application"**.
+  * August 9, 2022, Cyril John Magayaga announced the new feature version of Platfer, including **Tab Control Panel**.
+
+
+## Authors
+* [@magayaga](https://github.com/magayaga)
