@@ -17,7 +17,7 @@
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
-        WebBrowser1.Navigate("https://sites.google.com/view/giteo")
+        WebBrowser1.Navigate("https://www.google.com")
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
