@@ -1,5 +1,6 @@
 ﻿// Copyright 2022 Cyril John Magayaga
 // Platfer - Philippines' first web browser
+// PlatferVersion = v1.3
 
 using System;
 using System.Windows.Forms;
