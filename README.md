@@ -22,4 +22,4 @@
 
 
 ## Authors
-* [@magayaga](https://github.com/magayaga)
+* [@magayaga](https://github.com/magayaga) (2022-present)
