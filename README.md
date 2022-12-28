@@ -1,10 +1,6 @@
-# Intergralty Platfer
 ![Logo/Background](https://github.com/Platfer/Platfer/blob/main/Platfer.png)
 
 **Platfer** is a free and open-source, proprietary graphical web browser created, designed, and developed by **Cyril John Magayaga** It is primarily based on open-source software, and mainly WebEngine.
-
-| :warning: Warning: Download the largest file (1.55 GB) of Platfer |
-| ---
 
 ## Downloads
 | **Versions** | **Release Date** | **Downloads for `.zip`** | **Downloads for `.tar.gz`** | **Downloads for `.exe`** | **Visual Studio** version | Notes |
