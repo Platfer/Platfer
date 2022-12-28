@@ -20,6 +20,7 @@
   * June 22, 2022, Cyril John Magayaga says **"Platfer become first C# Application"**.
   * August 19, 2022, Cyril John Magayaga announced the failed web browser written in C# Application.
   * December 27, 2022, Cyril John Magayaga announced the new feature version of Platfer, including New Tabs and New logo of Platfer.
+  * December 29, 2022, Cyril John Magayaga cancelled **WebEngine**. Now, the second version of **Platfer** was January 7, 2023.
 
 
 ## Authors
