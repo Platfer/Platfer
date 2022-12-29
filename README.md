@@ -22,6 +22,11 @@
   * December 27, 2022, Cyril John Magayaga announced the new feature version of Platfer, including New Tabs and New logo of Platfer.
   * December 29, 2022, Cyril John Magayaga cancelled **WebEngine**. Now, the second version of **Platfer** was January 7, 2023.
 
+## License
 
-## Authors
+Copyright (c) Cyril John Magayaga. All rights reserved.
+
+Licensed under the [MIT](https://github.com/Platfer/Platfer/blob/main/LICENSE) license.
+
+## Original Author
 * [@magayaga](https://github.com/magayaga) (2022-present)
