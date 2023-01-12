@@ -24,6 +24,7 @@
   * December 29, 2022, Cyril John Magayaga cancelled **WebEngine**. Now, the second version of **Platfer** was January 7, 2023.
   * January 1, 2023, Cyril John Magayaga announced the **Platfer** on the **Chromium**-based source code, **CefSharp**.
   * January 6, 2023, Cyril John Magayaga announced the new second version of **Platfer**, successfully web browser on tomorrow.
+  * January 12, 2023, Cyril John Magayaga said the fix the home button again.
 
 ## License
 
