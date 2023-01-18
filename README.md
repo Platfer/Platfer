@@ -15,6 +15,10 @@
 
 ## History
 
+### Announcement
+  * December 27, 2021, Cyril John Magayaga announced the **Platfer** (also known as **Platform Explorer**) is new Filipino web browser in the 21st Century. The release announcement was originally scheduled for **January 7, 2022**.
+
+### Private release
   * January 7, 2022, Platfer was created by [Cyril John Magayaga](https://github.com/magayaga). It is first Pre-alpha version of Platfer (v0.9) was released on January 7, 2022.
   * January 14, 2022, Cyril John Magayaga announced the new first version of Platfer before the first beta of release date on January 9, 2022.
   * March 2, 2022, the Platfer-VB.NET mergers Platfer-CSharp to Platfer again.
