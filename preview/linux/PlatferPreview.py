@@ -8,7 +8,25 @@ from gi.repository import Gtk, WebKit2
 
 linux = Gtk.Window()
 linux.set_title("Platfer Preview")
-linux.set_default_size(950,650)
+linux.set_default_size(950,600)
+
+def on_enter(search_button):
+    url = entry.get_text()
+    platfer.load_uri(url)
+    
+def go_about(about_button):
+    window = Gtk.Window()
+    window.set_default_size(600, 275)
+    
+    label = Gtk.Label()
+    window.set_title("About")
+    label.set_markup("<b><big>Platfer Preview</big></b>\nThe Philippines' first web browser.\nIt was created, designed, and developed by <b>Cyril John Magayaga</b>.\n\n<b>Stable release</b>: (v2.0-preview2) January 27, 2023\nPowered by <b>WebKit</b> browser engine (2.39.5)\n\nCopyright 2022-2023 Cyril John Magayaga. All rights reserved.")
+    label.set_justify(Gtk.Justification.LEFT)
+    label.set_line_wrap(True)
+    window.add(label)
+
+    label.show()
+    window.show()
 
 def enter(entry):
     url = entry.get_text()
@@ -35,6 +53,7 @@ def go_refresh(go_refresh_button):
 
 def go_home(go_home_button):
     platfer.load_uri("https://www.google.com")
+    
 
 scrolledWindow = Gtk.ScrolledWindow()
 
@@ -49,7 +68,8 @@ navbar.set_show_close_button(True)
 linux.set_titlebar(navbar)
 
 entry = Gtk.Entry()
-entry.connect("activate", enter)
+entry.set_width_chars(40)
+entry.connect("activate", enter, on_enter)
 navbar.set_custom_title(entry)
 
 go_back_button = Gtk.Button()
@@ -75,6 +95,22 @@ go_home_btn = Gtk.Image.new_from_icon_name("go-home", Gtk.IconSize.SMALL_TOOLBAR
 go_home_button.add(go_home_btn)
 go_home_button.connect("clicked", go_home)
 navbar.pack_start(go_home_button)
+
+about_button = Gtk.Button()
+about_btn = Gtk.Image.new_from_icon_name("help-about", Gtk.IconSize.SMALL_TOOLBAR)
+about_button.add(about_btn)
+about_button.connect("clicked", go_about)
+navbar.pack_end(about_button)
+
+new_tab_button = Gtk.Button()
+new_tab_btn = Gtk.Image.new_from_icon_name("list-add", Gtk.IconSize.SMALL_TOOLBAR)
+new_tab_button.add(new_tab_btn)
+navbar.pack_end(new_tab_button)
+
+search_button = Gtk.Button.new_with_label("Search")
+search_button.connect("clicked", on_enter)
+navbar.pack_end(search_button)
+
 
 scrolledWindow.add(platfer)
 linux.add(scrolledWindow)
