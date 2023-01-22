@@ -4,6 +4,7 @@
 ## History
 * January 18, 2023, Cyril John Magayaga announced the **Platfer Preview**, upcoming May 2023 on **Linux** operating system like **Python** programming language.
 * January 20, 2023, Cyril John Magayaga announced the starting preview development of **Linux** distros including **Ubuntu**.
+* January 23, 2023, Cyril John Magayaga announced the successfully web browser of **Platfer Preview** for **Linux**, fixing new tabs.
 
 ## Getting Started
 Quick start options are available:
