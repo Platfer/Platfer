@@ -1,4 +1,10 @@
-![Logo/Background](https://github.com/Platfer/Platfer/blob/main/Platfer.png)
+<p align="center">
+  <a href="https://github.com/Platfer/Platfer">
+    <img src=".github/assets/Platfer.svg" width="200" height="200">
+  </a>
+</p>
+
+<h1 align="center">Platfer</h1>
 
 **Platfer** is a free and open-source, proprietary graphical web browser created, designed, and developed by **Cyril John Magayaga** It is primarily based on open-source software.
 
