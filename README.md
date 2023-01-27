@@ -41,6 +41,7 @@
   * January 7, 2022, Platfer was first released in 2022 for Microsoft Windows.
   * August 16, 2022, Platfer was starting development after failed **Fedora** Linux-based operating system again, too big CPU.
   * January 18, 2023, Cyril John Magayaga announced the starting preview development for Linux distributions including **Ubuntu**.
+  * January 27, 2023, Cyril John Magayaga announced the available for **Linux** distributions including **Ubuntu**, **Fedora**, **Debian**, and more.
 
 ### Programming Language
   * VB.NET (2022)
