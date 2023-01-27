@@ -6,7 +6,7 @@
 
 <h1 align="center">Platfer</h1>
 
-**Platfer** is a free and open-source, proprietary graphical web browser created, designed, and developed by **Cyril John Magayaga** It is primarily based on open-source software.
+**Platfer** is a free and open-source, proprietary graphical web browser created, designed, and developed by **Cyril John Magayaga** It is primarily based on open-source software. It is the available for **Microsoft Windows** and **Linux**.
 
 ## Downloads
 | **Versions** | **Release Date** | **Downloads for `.zip`** | **Downloads for `.tar.gz`** | **Downloads for `.exe`** | **Visual Studio** version | Notes |
