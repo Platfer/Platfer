@@ -10,12 +10,13 @@
 Quick start options are available:
 ```shell
   # Step 1: Clone the repository.
-  git clone https://github.com/Platfer/Platfer.git
+  $ git clone https://github.com/Platfer/Platfer.git
+  $ cd Platfer
   
   # Step 2: Install the PyQt5 and PyQtWebEngine.
-  pip install PyQt5
-  pip install PyQtWebEngine
+  $ pip install PyQt5
+  $ pip install PyQtWebEngine
   
   # Step 3: Build and run the application.
-  python preview/windows/PlatferPreview.py
+  $ python preview/windows/PlatferPreview.py
 ```
