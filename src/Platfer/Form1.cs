@@ -1,6 +1,6 @@
-﻿// Platfer
+﻿// Platfer – Graphical web browser
 // Copyright 2022-2023 Cyril John Magayaga
-// Latest Release Date: v2.0
+// Latest Release Date: v2.1
 using System;
 using CefSharp;
 using System.Collections.Generic;
@@ -22,6 +22,7 @@ namespace Platfer
             InitializeComponent();
         }
 
+        // Platfer 
         private void Form1_Load(object sender, EventArgs e)
         {
             CefSettings settings = new CefSettings();
@@ -42,6 +43,7 @@ namespace Platfer
             }));
         }
 
+        // Platfer Search Button
         private void PlatferSearch_Click(object sender, EventArgs e)
         {
             ChromiumWebBrowser chrome = PlatferTabControl.SelectedTab.Controls[0] as ChromiumWebBrowser;
@@ -49,6 +51,7 @@ namespace Platfer
                 chrome.Load(PlatferURL.Text);
         }
 
+        // Platfer Reload Button
         private void PlatferRefresh_Click(object sender, EventArgs e)
         {
             ChromiumWebBrowser chrome = PlatferTabControl.SelectedTab.Controls[0] as ChromiumWebBrowser;
@@ -56,6 +59,7 @@ namespace Platfer
                 chrome.Refresh();
         }
 
+        // Platfer Forward Button
         private void PlatferForward_Click(object sender, EventArgs e)
         {
             ChromiumWebBrowser chrome = PlatferTabControl.SelectedTab.Controls[0] as ChromiumWebBrowser;
@@ -66,6 +70,7 @@ namespace Platfer
             }
         }
 
+        // Platfer Back Button
         private void PlatferBack_Click(object sender, EventArgs e)
         {
             ChromiumWebBrowser chrome = PlatferTabControl.SelectedTab.Controls[0] as ChromiumWebBrowser;
@@ -81,6 +86,7 @@ namespace Platfer
             Cef.Shutdown();
         }
 
+        // Platfer New Tab
         private void PlatferNewTab_Click(object sender, EventArgs e)
         {
             TabPage tab = new TabPage();
@@ -103,6 +109,7 @@ namespace Platfer
             }));
         }
 
+        // Platfer Home
         private void PlatferHome_Click(object sender, EventArgs e)
         {
             CefSettings settings = new CefSettings();
