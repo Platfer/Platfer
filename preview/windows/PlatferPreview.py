@@ -1,3 +1,6 @@
+# Copyright 2023 Cyril John Magayaga
+# Platfer Preview (v2.0-preview3)
+# Microsoft Windows operating system
 import sys
 from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
