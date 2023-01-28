@@ -11,15 +11,16 @@ Quick start options are available:
 
 ```shell
   # Step 1: Clone the repository.
-  git clone https://github.com/Platfer/Platfer.git
-  
+  $ git clone https://github.com/Platfer/Platfer.git
+  $ cd Platfer
+
   # Step 2: Install the Python programming language.
-  sudo apt-get install python3
+  $ sudo apt-get install python3
   
   # Step 3: Install the GTK and WebKit2.
-  sudo apt-get install -y gir1.2-gtk-3.0
-  sudo apt-get install -y webkit2gtk-4.1
+  $ sudo apt-get install -y gir1.2-gtk-3.0
+  $ sudo apt-get install -y webkit2gtk-4.1
   
   # Step 4: Build and run the application.
-  python preview/linux/PlatferPreview.py
+  $ python preview/linux/PlatferPreview.py
 ```
