@@ -35,7 +35,7 @@
   * January 1, 2023, Cyril John Magayaga announced the **Platfer** on the **Chromium**-based source code, **CefSharp**.
   * January 6, 2023, Cyril John Magayaga announced the new second version of **Platfer**, successfully web browser on tomorrow.
   * January 12, 2023, Cyril John Magayaga said the fix the home button again.
-  * January 18, 2023, Cyril John Magayagaa announced the **Platfer Preview** is preview web browser less than **Platfer** is graphical web browser, available for **Windows 10** or later versions and upcoming **Linux** are unavailable.
+  * January 18, 2023, Cyril John Magayaga announced the **Platfer Preview** is preview web browser less than **Platfer** is graphical web browser, available for **Windows 10** or later versions and upcoming **Linux** are unavailable.
   
 ### Development
   * January 7, 2022, Platfer was first released in 2022 for Microsoft Windows.
