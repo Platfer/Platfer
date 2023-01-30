@@ -1,5 +1,5 @@
 # Copyright 2023 Cyril John Magayaga
-# Platfer Preview (v2.0-preview2)
+# Platfer Preview (v2.0-preview3)
 # Linux operating system
 import gi
 gi.require_version('Gtk', '3.0')
@@ -10,9 +10,9 @@ linux = Gtk.Window()
 linux.set_title("Platfer Preview")
 linux.set_default_size(950,600)
 
-def on_enter(search_button):
-    url = entry.get_text()
-    platfer.load_uri(url)
+def notebook(new_tab_button):
+    print("PLATFER (v2.0-preview3)")
+    print("SORRY, I DON'T KNOW. FIXING NEW TABS")
     
 def go_about(about_button):
     window = Gtk.Window()
@@ -28,7 +28,7 @@ def go_about(about_button):
     label.show()
     window.show()
 
-def enter(entry):
+def on_enter(search_button):
     url = entry.get_text()
     if url.startswith("http://") or url.startswith("https://"):
            platfer.load_uri(url)
@@ -38,6 +38,16 @@ def enter(entry):
        platferurl.set_text(url)
        platfer.load_uri(platferurl)
        
+def enter(entry):
+    url = entry.get_text()
+    if url.startswith("http://") or url.startswith("https://"):
+           platfer.load_uri(url)
+       
+    else: 
+       platferurl = "https://" + url
+       platferurl.set_text(url)
+       platfer.load_uri(platferurl)
+
 def change_url(entry, widget, frame):
     uri = platfer.get_uri()
     entry.set_text(uri)
@@ -69,7 +79,7 @@ linux.set_titlebar(navbar)
 
 entry = Gtk.Entry()
 entry.set_width_chars(40)
-entry.connect("activate", enter, on_enter)
+entry.connect("activate", enter)
 navbar.set_custom_title(entry)
 
 go_back_button = Gtk.Button()
@@ -104,6 +114,7 @@ navbar.pack_end(about_button)
 
 new_tab_button = Gtk.Button()
 new_tab_btn = Gtk.Image.new_from_icon_name("list-add", Gtk.IconSize.SMALL_TOOLBAR)
+new_tab_button.connect("clicked", notebook)
 new_tab_button.add(new_tab_btn)
 navbar.pack_end(new_tab_button)
 
