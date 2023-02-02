@@ -1,9 +1,9 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Platfer", "Platfer\Platfer.csproj", "{1593C071-E20B-44D8-8822-953C498A5DEA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Platfer", "Platfer\Platfer.csproj", "{A8A45760-10D5-4768-B5CC-0771534D643B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1593C071-E20B-44D8-8822-953C498A5DEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1593C071-E20B-44D8-8822-953C498A5DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1593C071-E20B-44D8-8822-953C498A5DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1593C071-E20B-44D8-8822-953C498A5DEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8A45760-10D5-4768-B5CC-0771534D643B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8A45760-10D5-4768-B5CC-0771534D643B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8A45760-10D5-4768-B5CC-0771534D643B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8A45760-10D5-4768-B5CC-0771534D643B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {6F71607A-375E-4BB1-9438-73E9AA5C5BB0}
+		SolutionGuid = {2FB5E622-99F2-4822-BDA3-661BD9C94912}
 	EndGlobalSection
 EndGlobal
