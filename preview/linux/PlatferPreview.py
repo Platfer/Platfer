@@ -1,129 +1,140 @@
 # Copyright 2023 Cyril John Magayaga
-# Platfer Preview (v2.0-preview3)
+# Platfer Preview (v2.0-preview4)
 # Linux operating system
 import gi
 gi.require_version('Gtk', '3.0')
 gi.require_version('WebKit2', '4.1')
 from gi.repository import Gtk, WebKit2
 
-linux = Gtk.Window()
-linux.set_title("Platfer Preview")
-linux.set_default_size(950,600)
+class Platfer:
+    def __init__(self):
+        self.linux = Gtk.Window()
+        self.linux.set_title("Platfer Preview")
+        self.linux.set_default_size(950, 600)
 
-def notebook(new_tab_button):
-    print("PLATFER (v2.0-preview3)")
-    print("SORRY, I DON'T KNOW. FIXING NEW TABS")
-    
-def go_about(about_button):
-    window = Gtk.Window()
-    window.set_default_size(600, 275)
-    
-    label = Gtk.Label()
-    window.set_title("About")
-    label.set_markup("<b><big>Platfer Preview</big></b>\nThe Philippines' first web browser.\nIt was created, designed, and developed by <b>Cyril John Magayaga</b>.\n\n<b>Stable release</b>: (v2.0-preview2) January 27, 2023\nPowered by <b>WebKit</b> browser engine (2.39.5)\n\nCopyright 2022-2023 Cyril John Magayaga. All rights reserved.")
-    label.set_justify(Gtk.Justification.LEFT)
-    label.set_line_wrap(True)
-    window.add(label)
+        self.init_ui()
 
-    label.show()
-    window.show()
+    def init_ui(self):
+        self.notebook_button = Gtk.Button.new_with_label("New Tab")
+        self.notebook_button.connect("clicked", self.notebook)
 
-def on_enter(search_button):
-    url = entry.get_text()
-    if url.startswith("http://") or url.startswith("https://"):
-           platfer.load_uri(url)
-       
-    else: 
-       platferurl = "https://" + url
-       platferurl.set_text(url)
-       platfer.load_uri(platferurl)
-       
-def enter(entry):
-    url = entry.get_text()
-    if url.startswith("http://") or url.startswith("https://"):
-           platfer.load_uri(url)
-       
-    else: 
-       platferurl = "https://" + url
-       platferurl.set_text(url)
-       platfer.load_uri(platferurl)
+        self.about_button = Gtk.Button.new_with_label("About")
+        self.about_button.connect("clicked", self.go_about)
 
-def change_url(entry, widget, frame):
-    uri = platfer.get_uri()
-    entry.set_text(uri)
-    
-def go_back(go_back_button):
-    platfer.go_back()
-    
-def go_forward(go_forward_button):
-    platfer.go_forward()
-    
-def go_refresh(go_refresh_button):
-    platfer.reload()
+        self.search_button = Gtk.Button.new_with_label("Search")
+        self.search_button.connect("clicked", self.on_enter)
 
-def go_home(go_home_button):
-    platfer.load_uri("https://www.google.com")
-    
+        self.navbar = Gtk.HeaderBar()
+        self.navbar.set_show_close_button(True)
+        self.linux.set_titlebar(self.navbar)
 
-scrolledWindow = Gtk.ScrolledWindow()
+        self.entry = Gtk.Entry()
+        self.entry.set_width_chars(40)
+        self.entry.connect("activate", self.enter)
+        self.navbar.set_custom_title(self.entry)
 
-platfer = WebKit2.WebView()
-platfer.load_uri("https://www.google.com")
-platfer.connect("notify::estimated-load-progress", change_url)
+        self.go_back_button = Gtk.Button.new_from_icon_name("go-previous", Gtk.IconSize.SMALL_TOOLBAR)
+        self.go_back_button.connect("clicked", self.go_back)
+        self.navbar.pack_start(self.go_back_button)
 
-linux.connect("destroy",Gtk.main_quit)
+        self.go_forward_button = Gtk.Button.new_from_icon_name("go-next", Gtk.IconSize.SMALL_TOOLBAR)
+        self.go_forward_button.connect("clicked", self.go_forward)
+        self.navbar.pack_start(self.go_forward_button)
 
-navbar = Gtk.HeaderBar()
-navbar.set_show_close_button(True)
-linux.set_titlebar(navbar)
+        self.go_refresh_button = Gtk.Button.new_from_icon_name("view-refresh", Gtk.IconSize.SMALL_TOOLBAR)
+        self.go_refresh_button.connect("clicked", self.go_refresh)
+        self.navbar.pack_start(self.go_refresh_button)
 
-entry = Gtk.Entry()
-entry.set_width_chars(40)
-entry.connect("activate", enter)
-navbar.set_custom_title(entry)
+        self.go_home_button = Gtk.Button.new_from_icon_name("go-home", Gtk.IconSize.SMALL_TOOLBAR)
+        self.go_home_button.connect("clicked", self.go_home)
+        self.navbar.pack_start(self.go_home_button)
 
-go_back_button = Gtk.Button()
-go_back_arrow = Gtk.Image.new_from_icon_name("go-previous", Gtk.IconSize.SMALL_TOOLBAR)
-go_back_button.add(go_back_arrow)
-go_back_button.connect("clicked", go_back)
-navbar.pack_start(go_back_button)
+        self.about_btn = Gtk.Image.new_from_icon_name("help-about", Gtk.IconSize.SMALL_TOOLBAR)
+        self.about_button = Gtk.Button()
+        self.about_button.add(self.about_btn)
+        self.about_button.connect("clicked", self.go_about)
+        self.navbar.pack_end(self.about_button)
 
-go_forward_button = Gtk.Button()
-go_forward_arrow = Gtk.Image.new_from_icon_name("go-next", Gtk.IconSize.SMALL_TOOLBAR)
-go_forward_button.add(go_forward_arrow)
-go_forward_button.connect("clicked", go_forward)
-navbar.pack_start(go_forward_button)
+        self.new_tab_btn = Gtk.Image.new_from_icon_name("list-add", Gtk.IconSize.SMALL_TOOLBAR)
+        self.new_tab_button = Gtk.Button()
+        self.new_tab_button.add(self.new_tab_btn)
+        self.new_tab_button.connect("clicked", self.notebook)
+        self.navbar.pack_end(self.new_tab_button)
 
-go_refresh_button = Gtk.Button()
-go_refresh_btn = Gtk.Image.new_from_icon_name("view-refresh", Gtk.IconSize.SMALL_TOOLBAR)
-go_refresh_button.add(go_refresh_btn)
-go_refresh_button.connect("clicked", go_refresh)
-navbar.pack_start(go_refresh_button)
+        self.scrolledWindow = Gtk.ScrolledWindow()
+        self.platfer = WebKit2.WebView()
+        self.platfer.load_uri("https://www.google.com")
+        self.platfer.connect("notify::estimated-load-progress", self.change_url)
 
-go_home_button = Gtk.Button()
-go_home_btn = Gtk.Image.new_from_icon_name("go-home", Gtk.IconSize.SMALL_TOOLBAR)
-go_home_button.add(go_home_btn)
-go_home_button.connect("clicked", go_home)
-navbar.pack_start(go_home_button)
+        self.linux.connect("destroy", Gtk.main_quit)
 
-about_button = Gtk.Button()
-about_btn = Gtk.Image.new_from_icon_name("help-about", Gtk.IconSize.SMALL_TOOLBAR)
-about_button.add(about_btn)
-about_button.connect("clicked", go_about)
-navbar.pack_end(about_button)
+        self.scrolledWindow.add(self.platfer)
+        self.linux.add(self.scrolledWindow)
+        self.linux.show_all()
+        Gtk.main()
 
-new_tab_button = Gtk.Button()
-new_tab_btn = Gtk.Image.new_from_icon_name("list-add", Gtk.IconSize.SMALL_TOOLBAR)
-new_tab_button.connect("clicked", notebook)
-new_tab_button.add(new_tab_btn)
-navbar.pack_end(new_tab_button)
+    def notebook(self, new_tab_button):
+        window = Gtk.Window()
+        window.set_default_size(400, 275)
 
-search_button = Gtk.Button.new_with_label("Search")
-search_button.connect("clicked", on_enter)
-navbar.pack_end(search_button)
+        label = Gtk.Label()
+        window.set_title("Platfer Fixing Errors")
+        label.set_markup("<b><big>Platfer Preview</big></b>\nSorry, Fixing new multiple and unlimited tabs.")
+        label.set_justify(Gtk.Justification.LEFT)
+        label.set_line_wrap(True)
+        window.add(label)
 
+        label.show()
+        window.show()
 
-scrolledWindow.add(platfer)
-linux.add(scrolledWindow)
-linux.show_all()
-Gtk.main()
+    def go_about(self, about_button):
+        window = Gtk.Window()
+        window.set_default_size(600, 275)
+
+        label = Gtk.Label()
+        window.set_title("About")
+        label.set_markup("<b><big>Platfer Preview</big></b>\nThe Philippines' first web browser.\nIt was created, designed, and developed by <b>Cyril John Magayaga</b>.\n\n<b>Stable release</b>: (v2.0-preview4) August 9, 2023\nPowered by <b>WebKit</b> browser engine (2.39.5)\n\nCopyright 2022-2023 Cyril John Magayaga. All rights reserved.")
+        label.set_justify(Gtk.Justification.LEFT)
+        label.set_line_wrap(True)
+        window.add(label)
+
+        label.show()
+        window.show()
+
+    def on_enter(self, search_button):
+        url = self.entry.get_text()
+        if url.startswith("http://") or url.startswith("https://"):
+            self.platfer.load_uri(url)
+        else:
+            platferurl = "https://" + url
+            self.platferurl.set_text(url)
+            self.platfer.load_uri(platferurl)
+
+    def enter(self, entry):
+        url = entry.get_text()
+        if url.startswith("http://") or url.startswith("https://"):
+            self.platfer.load_uri(url)
+        else:
+            platferurl = "https://" + url
+            self.platferurl.set_text(url)
+            self.platfer.load_uri(platferurl)
+
+    def change_url(self, entry, widget, frame):
+        uri = self.platfer.get_uri()
+        self.entry.set_text(uri)
+
+    def go_back(self, go_back_button):
+        self.platfer.go_back()
+
+    def go_forward(self, go_forward_button):
+        self.platfer.go_forward()
+
+    def go_refresh(self, go_refresh_button):
+        self.platfer.reload()
+
+    def go_home(self, go_home_button):
+        self.platfer.load_uri("https://www.google.com")
+
+if __name__ == "__main__":
+    # All def to one class
+    app = Platfer()
