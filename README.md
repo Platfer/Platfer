@@ -18,7 +18,7 @@
 | v1.4 | December 28, 2022 | [Click Here](https://github.com/Platfer/Platfer/archive/refs/tags/v1.4.zip) | [Click Here](https://github.com/Platfer/Platfer/archive/refs/tags/v1.4.tar.gz) | Yes | **(17.4.3)** 17.4.33205.214 | New tabs and New logo of Platfer |
 | v1.5 | December 29, 2022 | [Click Here](https://github.com/Platfer/Platfer/archive/refs/tags/v1.5.zip) | [Click Here](https://github.com/Platfer/Platfer/archive/refs/tags/v1.5.tar.gz) | Yes | **(17.4.3)** 17.4.33205.214 | Second Fix bugs |
 | v2.0 | January 7, 2023 | [Click Here](https://github.com/Platfer/Platfer/archive/refs/tags/v2.0.zip) | [Click Here](https://github.com/Platfer/Platfer/archive/refs/tags/v2.0.tar.gz) | Yes | **(17.4.3)** 17.4.33205.214 | New version of Platfer and Chromium-based web browser|
-| v2.1 | TBA December 2023 | TBA | TBA | TBA | TBA | Second Redesign of Platfer|
+| v2.1 | TBA February 2024 | TBA | TBA | TBA | TBA | Second Redesign of Platfer|
 
 ## History
 
